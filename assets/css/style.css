@@ -1,0 +1,38 @@
+header{
+    background-color:navy;
+    color:snow;
+    margin:4px 0px 4px 0px;
+    background-size:cover;
+    position: relative;
+    text-align: center;
+    height:75px;
+}
+
+.buttons button{
+    background-color:navy;
+    border-radius: 5%;
+    cursor: pointer;
+    float:left;
+    color: snow;
+    position: relative;
+    padding:10px;
+    top: 50%;
+    left: 50%;
+    justify-content: space-around;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1), 
+                0 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.user_name{
+    height: 60px;
+    justify-items: center;
+    
+    background-color: navy;
+    color: snow;
+}
+
+/* .question_box{
+    
+
+} */
