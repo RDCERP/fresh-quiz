@@ -10,46 +10,55 @@
 <header>
     <div>Ryans Quiz</div>
     <div class="timer">
-        <div class="time_left_txt">Countdown</div>
-        <div>45</div>
+        <div class="seconds_end">Countdown<br>
+        <div id="seconds" class="seconds">21</div>
     </div>
 <body>
 
         </header>
     <div class="quiz_box">
-        <section>
-            <div class = "user_name">
-                <input type="text" id="user_name"><br>
-                <label for="user"=>User Name</label><br>
+        <section> 
+         
+            <div class = "user-name"> 
+                <!--this is where the user will input their name -->
+                <input class ="input" type="text" id="user_name" onchange="onchangeName(this.value)"><br> 
+                
+                <label class ="label" for="user"=>User Name</label><br>
+                
             </div>
-            <div class="que_text">
-                <!-- Here I've inserted question from JavaScript -->
+            <div class="question_call"> 
+                <ul>Input name and click start to take quiz.</ul>
+                <ul>7 seconds will be deleted for wrong answer.</ul>
+                <ul>Your score will be saved automatically.</ul>
+                <!-- JavaScript insert -->
             </div>
-            <div class="option_list">
-                <!-- Here I've inserted options from JavaScript -->
+            <!-- this is where the questions will be displayed -->
+            <div class="question_list"> 
+                <!-- JavaScript insert -->
             </div>
         </section>
-
-        <!-- footer of Quiz Box -->
-        <footer>
-            <div class="total_que_class">
-                <!-- Here I've inserted Question Count Number from JavaScript -->
-            </div>
-            <section class="buttons">
-                <!-- start Quiz button -->
-                <div><button class="start" id="startId">Start</button></div>
-                <div><button id="quitId">Quit</button></div>
-                <div><button id="saveId">Save</button></div>
-            </section>
-        </footer>
+     
+        <div class="total_que_class">
+            <!-- JavaScript insert -->
+        </div>
+        <div class="buttons-container">
+            <button id="start_btn" class="start">Start</button>
+        </div>       
     </div>
-
     <div>
-
+        <div class="seconds_end">Score</div>
+        <div id="total_score" class="total_score">0</div>
+    </div>
+    <h3 class="">Top Scores</h3>
+    <div class="top_scores" id="top-scores">
 
     </div>
+
+    
+  
+
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/questions.js"></script>
 </body>
-
+    
 </html>

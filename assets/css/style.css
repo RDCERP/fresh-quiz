@@ -1,38 +1,138 @@
+*{
+    /* background-color: red;
+    color: black; */
+    font-family: helvetica;
+} 
+
 header{
-    background-color:navy;
-    color:snow;
-    margin:4px 0px 4px 0px;
-    background-size:cover;
-    position: relative;
     text-align: center;
     height:75px;
+    font-size: 16px;
 }
 
-.buttons button{
-    background-color:navy;
-    border-radius: 5%;
-    cursor: pointer;
-    float:left;
-    color: snow;
+
+.quiz_box{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 0px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    height: 100%;
     position: relative;
-    padding:10px;
-    top: 50%;
-    left: 50%;
-    justify-content: space-around;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1), 
-                0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
 }
 
-.user_name{
+.user-name{
     height: 60px;
-    justify-items: center;
-    
-    background-color: navy;
-    color: snow;
+    justify-items: center;  
+    border-radius: 5%;
+    padding: 200px;
+      
 }
 
-/* .question_box{
-    
+header .timer{
+    height: 45px;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+}
 
-} */
+header .timer .seconds_end{
+    font-size: 24px;
+
+}
+
+header .timer .seconds{
+    font-size: 24px;
+    height: 30px;
+    width: 45px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: snow; 
+}
+
+.quiz_box {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.user-name .input{
+    height: 30px;
+    width: 200px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: snow; 
+    justify-content: center;
+    font-size: large;
+}
+
+.quiz_box .label{
+    height: 30px;
+    width: 200px;
+    line-height: 30px;
+    justify-content: center;
+}
+
+section .question_list{
+    justify-content: right;
+    margin: 10px;
+
+}
+
+
+section .question_list .question:hover{
+    color: navy;
+    background-color: #ccc;
+}
+
+footer .top_scores{
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.top_scores_container{
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+}
+.buttons-container { 
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    
+}
+
+.buttons-container .start {
+    background-color: navy;
+    border: none;
+    color: red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 7%;
+}
