@@ -1,7 +1,6 @@
-# fresh-quiz
-# https://rdcerp.github.io/fresh-quiz/
-
-# https://github.com/RDCERP/fresh-quiz
+## fresh-quiz
+##### https://rdcerp.github.io/fresh-quiz/
+##### https://github.com/RDCERP/fresh-quiz
 
 #### A functioning quiz that keeps track of time.
 #### User must input name to play then press start.
@@ -11,4 +10,5 @@
 #### To play again you must refresh the page.
 
 
-![Screen Shot 2022-09-08 at 11 54 17 PM](https://user-images.githubusercontent.com/109607056/190525453-5ba01e76-cd9c-4bd0-914d-00b330e2607b.png)
+
+<img width="872" alt="Screen Shot 2022-09-15 at 6 17 59 PM" src="https://user-images.githubusercontent.com/109607056/190525708-bdc51d49-0e09-4e1d-a997-f3c0e1157bea.png">
