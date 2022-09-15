@@ -87,6 +87,7 @@ try {
 	
 		function showResult(){
 			try {
+				window.alert("Your score is " + totalScore); //showing total score
 				clearInterval(counter);//clear counter
 				timeValue = 21;
 				
